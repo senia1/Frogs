@@ -39,8 +39,9 @@
             this.GameRulesTextBox.Location = new System.Drawing.Point(28, 21);
             this.GameRulesTextBox.Multiline = true;
             this.GameRulesTextBox.Name = "GameRulesTextBox";
+            this.GameRulesTextBox.ReadOnly = true;
             this.GameRulesTextBox.Size = new System.Drawing.Size(748, 253);
-            this.GameRulesTextBox.TabIndex = 0;
+            this.GameRulesTextBox.TabIndex = 1;
             this.GameRulesTextBox.Text = resources.GetString("GameRulesTextBox.Text");
             // 
             // RulesCloseButton

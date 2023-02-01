@@ -7,25 +7,25 @@ namespace Game_Frogs
             InitializeComponent();
         }
 
-        private void startOverToolStripMenuItem_Click(object sender, EventArgs e)
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void startOverToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             Application.Restart();
         }
 
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        private void exitToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void rulesOfTheGameToolStripMenuItem_Click(object sender, EventArgs e)
+        private void rulesOfTheGameToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             var rulesForm = new RulesForm();
             rulesForm.Show();
-        }
-
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

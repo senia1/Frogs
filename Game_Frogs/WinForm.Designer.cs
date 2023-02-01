@@ -88,6 +88,7 @@
             this.yesButton.TabIndex = 4;
             this.yesButton.Text = "Yes";
             this.yesButton.UseVisualStyleBackColor = false;
+            this.yesButton.Click += new System.EventHandler(this.yesButton_Click);
             // 
             // noButton
             // 
@@ -99,6 +100,7 @@
             this.noButton.TabIndex = 5;
             this.noButton.Text = "No";
             this.noButton.UseVisualStyleBackColor = false;
+            this.noButton.Click += new System.EventHandler(this.noButton_Click);
             // 
             // WinForm
             // 

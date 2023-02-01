@@ -22,5 +22,10 @@ namespace Game_Frogs
             var rulesForm = new RulesForm();
             rulesForm.Show();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
